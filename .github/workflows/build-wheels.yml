@@ -39,7 +39,7 @@ jobs:
             PLAT: i686
           - os: macos-latest
             platform: aarch64
-            PLAT: x86_64
+            PLAT: aarch64
     env:
       REPO_DIR: linearmodels
       PKG_NAME: linearmodels
