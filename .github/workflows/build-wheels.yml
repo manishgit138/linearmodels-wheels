@@ -31,6 +31,15 @@ jobs:
           - os: ubuntu-latest
             platform: aarch64
             PLAT: x86_64
+          - os: macos-latest
+            platform: x64
+            PLAT: aarch64
+          - os: macos-latest
+            platform: aarch64
+            PLAT: i686
+          - os: macos-latest
+            platform: aarch64
+            PLAT: x86_64
     env:
       REPO_DIR: linearmodels
       PKG_NAME: linearmodels
